@@ -1,5 +1,5 @@
 import random
-
+from threading import Thread
 
 def Culculetor(x,op,y):
     if op == "+":
@@ -59,7 +59,3 @@ def F_to_C(F):
     C = F - 32
     C *= (5/9)
     return C
-
-
-
-convert_C_and_F()
