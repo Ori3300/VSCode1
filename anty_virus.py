@@ -6,7 +6,7 @@ import time
 api_key = '7f40c72a12e21a6064f1de660c492bee64191c5a3dc2bfc8645a5c207a287db4'
 
 # The file you want to upload
-file_path = "C:\\Users\\user\\Desktop\\Footy\\Footy1.png"
+file_path = "C:\\Users\\user\\Desktop\\desktop.txt"
 
 # URL for VirusTotal file scan
 url = 'https://www.virustotal.com/api/v3/files'
