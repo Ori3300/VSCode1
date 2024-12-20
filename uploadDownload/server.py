@@ -8,11 +8,6 @@ FORMAT = "utf-8"
 SIZE = 1024
 
 
-def store_in_folder(file_path, destination_folder):
-    shutil.move(file_path, destination_folder) 
-    
-
-
 
 def main():
     print("[STARTING] server is starting.")
@@ -70,22 +65,8 @@ def main():
 
                 
 
-
-
-        
-            
-
-
-    
-    
-
-
-    
-
-        
-
-        
-
+def store_in_folder(file_path, destination_folder):
+    shutil.move(file_path, destination_folder)        
         
 
 if __name__ == "__main__":
